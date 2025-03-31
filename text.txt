@@ -1,0 +1,4 @@
+-- para sobreescribir el anterior commit y fusionarlo con el anterior
+    git reset --soft HEAD~1
+    git commit --amend -m "Plantilla Base (Actualizado)"
+    git push origin main --force
