@@ -2,3 +2,8 @@
     git reset --soft HEAD~1
     git commit --amend -m "Plantilla Base (Actualizado)"
     git push origin main --force
+
+--Backen, dependencias: 
+npm i -D typescript @types/express @types/morgan ts-node-dev tsconfig-paths
+npm i express morgan dotenv
+npx tsc --init -> configs necesarias para typescript
